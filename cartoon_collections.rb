@@ -8,6 +8,6 @@ end
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
-puts  array.each_with_index {|el, index| puts "#{index}. #{el}" }
+array.each_with_index {|el, index| puts "#{index}. #{el}" }
   # Print a numbered list of each element
 end
