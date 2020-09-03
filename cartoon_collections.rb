@@ -1,6 +1,6 @@
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
-array.each {|el| print el, "Hello! " }  #
+array.each {|el| print "Hello! #{el}" }  #
   # Print a custom greeting for each element
 
 
